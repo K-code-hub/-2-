@@ -16,7 +16,7 @@ void dft(double input[], complex<double> output[]) {
     }
 }
 int main() {
-    double input[N] = {1, 0, -1, 0};
+    double input[N] = {1, 2, 3, 4};
     complex<double> output[N];
     dft(input, output);
     cout << "DFT result:" << endl;
